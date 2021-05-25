@@ -1,0 +1,72 @@
+{% extends 'base.html.twig' %}
+
+{% block content %}
+	<section class="preview" id="preview">
+		<img src="{{ asset('img/logo2.png') }}" alt="" class="logo2">
+		<a href="form.html" class="btn btn-leave">Оставить заявку</a>
+	</section>
+	<section class="about">
+		<div class="container">
+			<div class="wrapper">
+				<div class="info">
+					<p class="vivat">Vivat - это конноспортивный клуб, расположеный в Змиевском районе Харьковской области.<br> <br>
+						Мы предоставляем следующие услуги: верховые прогулки в полях, обучение верховой езде, тренировки по конкуру, фотосессии с лошадьми на природе, постой лошадей. Есть крытый и открытый манеж, открытая бочка. Везде на рабочих площадках песчаный грунт. <br><br>
+
+						Мы любим наших лошадей. А еще мы любим гостей, которые любят наших лошадей и всегда рады приветствовать новых посетителей нашего клуба.
+					</p>
+					<a href="services.html" class="btn btn-more">Узнать больше</a>
+				</div>
+				<img src="{{ asset('img/brown_horse.jpg') }}" alt="" class="horseinfo">
+			</div>
+		</div>
+	</section>
+	<section class="offers">
+		<div class="container">
+			<div class="wrapper wrapper-1">
+				<div class="variant step-walk">
+					<div>
+						<h4>Шаговая прогулка</h4>
+						<p>Прогулка верхом - прекрасная возможность отдохнуть и насладиться замечательными видами с полей и хвойного леса.</p></div>
+					<a href="#" class="btn-variant">220 грн/45 мин.</a>
+				</div>
+				<div class="variant active-walk">
+					<div>
+						<h4>Активная прогулка</h4>
+						<p>Активная прогулка по полям для любителей верховой езды с опытом и желанием насадиться активным отдыхом на природе. <br><br><br></p></div>
+					<a href="#" class="btn-variant">250 грн/45 мин.</a>
+				</div>
+				<div class="variant training">
+					<div>
+						<h4>Тренировка</h4>
+						<p>Учебная программа для всадников с любым уровнем подготовки. Занятия в манеже с тренером и индивидуальным подходом к каждому всаднику.</p></div>
+					<a href="#" class="btn-variant">250 грн/45 мин.</a>
+				</div>
+			</div>
+			<div class="wrapper wrapper-2">
+				<div class="variant keeping">
+					<div>
+						<h4 class="keep">Постой лошади</h4>
+						<p>Выгул в леваде весь световой день. Выпас в электропастухе. На сегодня свободен один денник. <br><br><br><br></p></div>
+					<a href="#" class="btn-variant">5000 грн/1 мес.</a>
+				</div>
+				<div class="variant abonements">
+					<div>
+						<h4>Абонементы</h4>
+						<p>Возможность приобрести абонемент сроком на месяц с определенным количеством занятий.</p></div>
+					<a href="#" class="btn-variant n m">850 грн - 4 занятия</a>
+					<p></p>
+					<a href="#" class="btn-variant n">1700 грн - 8 занятий</a>
+				</div>
+				<div class="variant other">
+					<div>
+						<h4>Другое</h4>
+						<p>Участие лошади в фотосессии</p></div>
+					<a href="#" class="btn-variant">300 грн/час ф-с.</a>
+					<p><br><br>Купание с лошадью в реке в летнее время</p>
+					<a href="#" class="btn-variant">300 грн/45 мин.</a>
+				</div>
+			</div>
+		</div>
+		</div>
+	</section>
+{% endblock %}
