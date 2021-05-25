@@ -1,0 +1,17 @@
+{% extends 'base.html.twig' %}
+
+{% block content %}
+	<section class="orderService">
+		<div class="container .form-container">
+			<h1 class=".formH1">Заявка для обратной связи</h1>
+			<p class="formP">Оставьте заявку и в течение часа мы с вами <br> свяжемся для более детального обсуждения<br> необходимых услyг</p>
+			<form action="#" class="form">
+				<input type="text" placeholder="Выберите услугу" name="text" class="input" required>
+				<input type="name" placeholder="Имя" name="name" class="input" required>
+				<input type="phone" placeholder="Номер телефона" name="phone" class="input" required>
+				<input type="text" placeholder="Комментарий к заявке" name="comment" class="input">
+				<button class="btn btn-form">Отправить заявку</button>
+			</form>
+		</div>
+	</section>
+{% endblock %}

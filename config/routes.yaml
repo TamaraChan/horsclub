@@ -5,3 +5,7 @@ index:
 services:
     path: /services
     controller: App\Controller\Services::index
+
+form:
+    path: /form
+    controller: App\Controller\Form::index
