@@ -5,7 +5,14 @@
 		<div class="container .form-container">
 			<h1 class=".formH1">Заявка для обратной связи</h1>
 			<p class="formP">Оставьте заявку и в течение часа мы с вами <br> свяжемся для более детального обсуждения<br> необходимых услyг</p>
-			<form action="#" class="form">
+			<div>
+				{% if errors is defined %}
+					{% for error in errors %}
+						<div class="alert alert-danger">{{ error }}</div>
+					{% endfor %}
+				{% endif %}
+			</div>
+			<form action="{{ path('createOrder') }}" class="form" method="POST">
 				<select name="service" required class="input">
 					<option value="0">Выберите услугу</option>
 					<option value="1">ШАГОВАЯ ПРОГУЛКА</option>

@@ -8,4 +8,14 @@ services:
 
 form:
     path: /form
+    methods: GET
     controller: App\Controller\Form::index
+
+createOrder:
+    path: /form
+    methods: POST
+    controller: App\Controller\Form::createOrder
+
+confirmation:
+    path: /confirmation
+    controller: App\Controller\Form::confirmation
