@@ -24,8 +24,11 @@
 					<option value="7">КУПАНИЕ С ЛОШАДЬЮ</option>
 				</select>
 
-				<input type="name" placeholder="Имя" name="name" class="input" required>
-				<input type="phone" placeholder="Номер телефона" name="phone" class="input" required>
+				{% if app.request.cookies.get('idUser') == false %}
+					<input type="name" placeholder="Имя" name="name" class="input" required>
+					<input type="phone" placeholder="Номер телефона" name="phone" class="input" required>
+				{% endif %}
+
 				<input type="text" placeholder="Комментарий к заявке" name="comment" class="input">
 				<button class="btn btn-form">Отправить заявку</button>
 			</form>

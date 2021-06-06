@@ -5,6 +5,7 @@ namespace App\Controller;
 
 
 use App\Entity\Order;
+use App\Entity\User;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
 
@@ -33,10 +34,25 @@ class Form extends AbstractController
         $em = $this->getDoctrine()->getManager();
         $order = (new Order())
             ->setIdService($request->get('service'))
-            ->setName($request->get('name'))
             ->setIsConfirmed(0)
-            ->setComment($request->get('comment'))
-            ->setPhone($request->get('phone'));
+            ->setComment($request->get('comment'));
+
+        if ($request->cookies->get('idUser')) {
+            $user = $this->getDoctrine()
+                ->getManager()
+                ->getRepository(User::class)
+                ->find((int)$request->cookies->get('idUser'));
+
+            if ($user) {
+                $order
+                    ->setName($user->getName())
+                    ->setPhone($user->getPhone());
+            }
+        } else {
+            $order
+                ->setName($request->get('name'))
+                ->setPhone($request->get('phone'));
+        }
 
         try {
             $em->persist($order);
