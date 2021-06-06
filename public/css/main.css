@@ -1,10 +1,10 @@
 body{
- padding: 0;
- margin: 0;	
- font-family: 'Open Sans', sans-serif;
- font-size: 16px;
- font-color: white;
- background: #000000;
+	padding: 0;
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-color: white;
+	background: #000000;
 }
 
 .logo1{
@@ -23,8 +23,8 @@ body{
 }
 
 .container{
-	 width: 1150px;
-    margin: 0 auto;
+	width: 1150px;
+	margin: 0 auto;
 }
 
 .preview{
@@ -66,7 +66,7 @@ body{
 }
 
 .btn-leave{
-margin-left: 60%;
+	margin-left: 60%;
 }
 
 .about{
@@ -135,10 +135,10 @@ margin-left: 60%;
 	font-weight: bold;
 }
 
-.btn-variant:hover{ 
+.btn-variant:hover{
 	cursor: text;
 	color: black;
- }
+}
 
 .wrapper-1{
 	margin-bottom: 60px;
@@ -149,7 +149,7 @@ margin-left: 60%;
 }
 
 .m{
-padding: 6px 25px;
+	padding: 6px 25px;
 }
 
 .keep{
@@ -168,7 +168,7 @@ padding: 6px 25px;
 }
 
 .container-2{
-width: 1400px;
+	width: 1400px;
 }
 
 .aboutus{
@@ -176,14 +176,14 @@ width: 1400px;
 	padding-top: 140px;
 }
 
-.aboutus p{ 
+.aboutus p{
 	font-size: 20px;
 	letter-spacing: 1px;
 	color: white;
 	font-family: 'Open Sans', sans-serif;
 	width: 570px;
 	margin-bottom: 50px;
- }
+}
 
 .introduction p{
 	margin-top: 60px;
@@ -196,13 +196,13 @@ width: 1400px;
 }
 
 .imgforservices{
-border: solid 1px white;
-width: 620px;
-margin-bottom: 20px;
+	border: solid 1px white;
+	width: 620px;
+	margin-bottom: 20px;
 }
 
 .services-main-title, .aboutus h2{
-	background:#C4C4C4; 
+	background:#C4C4C4;
 	color: black;
 	text-align: center;
 	font-family: 'Montserrat', sans-serif;
@@ -214,89 +214,89 @@ margin-bottom: 20px;
 	border-radius: 6px;
 }
 
-.aboutus h2{ 
-background: none;
-color: white;
-margin-top: 35px;
-padding: 0;
-text-decoration: underline;
-margin-bottom: 0px;
-text-align: left;
-font-size: 28px;
-letter-spacing: 3px;
+.aboutus h2{
+	background: none;
+	color: white;
+	margin-top: 35px;
+	padding: 0;
+	text-decoration: underline;
+	margin-bottom: 0px;
+	text-align: left;
+	font-size: 28px;
+	letter-spacing: 3px;
 }
 
-.btn-services{ 
-width: 620px;
- }
+.btn-services{
+	width: 620px;
+}
 
- .wrapper-for-examples{ 
-padding-bottom: 45px;
-  }
+.wrapper-for-examples{
+	padding-bottom: 45px;
+}
 
-  .wrapper-3{ 
-padding-top: 19px;
-   }
+.wrapper-3{
+	padding-top: 19px;
+}
 
-.price{ 
-margin-left: 125px;
- }
+.price{
+	margin-left: 125px;
+}
 
- .photosessionH{ 
- 	margin-top: 40px;
-  }
+.photosessionH{
+	margin-top: 40px;
+}
 
-  .lastinservice{ 
-width: 1300px;
-margin-top: 50px;
-   }
+.lastinservice{
+	width: 1300px;
+	margin-top: 50px;
+}
 
 
 .orderService{
-margin-top: 67px;
-padding: 120px 0;
-background: url('BGforForm.jpg') no-repeat;
-justify-content: center;
-text-align: center;
+	margin-top: 67px;
+	padding: 120px 0;
+	background: url('BGforForm.jpg') no-repeat;
+	justify-content: center;
+	text-align: center;
 }
 
 .form-container{
 	width: 1000px;
 }
 
-.formH1{ 
+.formH1{
 	font-family: 'Montserrat', sans-serif;
 	font-weight: bolder;
 	margin-bottom: 40px;
- }
+}
 
- .formH1, .formP, .input{
- 	letter-spacing: 2px;
- }
+.formH1, .formP, .input{
+	letter-spacing: 2px;
+}
 
-.formP{ 
- 	margin-bottom: 50px;
-  }
+.formP{
+	margin-bottom: 50px;
+}
 
 .form{
-max-width: 450px;
-margin-top: 80px;
-margin: 0 auto;
+	max-width: 450px;
+	margin-top: 80px;
+	margin: 0 auto;
 }
 
 .input{
-border: 2px solid black;
-background-color:#EFE1BF;
-font-size: 15px;
-font-family: 'Open Sans', sans-serif;
-padding-left: 25px;
-margin-bottom: 40px;
+	border: 2px solid black;
+	background-color:#EFE1BF;
+	font-size: 15px;
+	font-family: 'Open Sans', sans-serif;
+	padding-left: 25px;
+	margin-bottom: 40px;
 }
 
 .btn-form, .input{
-height: 70px;
-width: 100%;
-border-radius: 7px;
+	height: 70px;
+	width: 100%;
+	border-radius: 7px;
 }
 
 .btn-form{
@@ -304,57 +304,89 @@ border-radius: 7px;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: bolder;
 	color:#EFE1BF;
-    letter-spacing: 1px;
-    height: 80px;
+	letter-spacing: 1px;
+	height: 80px;
 }
 
 .last-input{
 	margin-bottom: 60px;
 }
 
-.adminCabinet{ 
-padding: 120px 0;
-margin-top:70px;
-background-color: black; 
+.adminCabinet{
+	padding: 120px 0;
+	margin-top:70px;
+	background-color: black;
 }
 
-.AC-h1, .AC-P{ 
-color:white;
-letter-spacing: 6px;
- }
+.AC-h1, .AC-P{
+	color:white;
+	letter-spacing: 6px;
+}
 
-.AC-P{ 
-font-size:27px;
-margin-bottom:30px;
- }
+.AC-P{
+	font-size:27px;
+	margin-bottom:30px;
+}
 
- .AC-h1{ 
-font-family: 'Montserrat', sans-serif;
-font-weight: bolder;
-margin-bottom:40px;
-text-align: center;
-  }
+.AC-h1{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bolder;
+	margin-bottom:40px;
+	text-align: center;
+}
 
- table {
-        border-collapse: collapse;
-        margin-bottom: 30px;
-        width: 1150px;
-        margin-left: auto;
-        margin-right: auto;
-        color: white;
-        font-family: 'Open Sans', sans-serif;
+table {
+	border-collapse: collapse;
+	margin-bottom: 30px;
+	width: 1150px;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
 
 }
-    th, td {
-        border: 2px solid white;
-        padding: 5px;
-        font-family: 'Open Sans', sans-serif;
-        font-weight: normal;
-    }
+th, td {
+	border: 2px solid white;
+	padding: 5px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+}
 
-    th{
-    	text-align: center;
-    }
-    td:nth-child(2) {
-        text-align: right;
-    }
+th{
+	text-align: center;
+}
+td:nth-child(2) {
+	text-align: right;
+}
+
+
+.entering, .registration{
+	padding-top: 160px;
+	padding-bottom: 70px;
+	text-align: center;
+	background-color: #EFE1BF;
+	color: #532F21;
+}
+
+.entering .wrapper, .registration .wrapper{
+	width: 400px;
+	margin-left: 30%;
+	margin-bottom: 40px;
+}
+.ent {
+	font-weight: bolder;
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 1px;
+}
+
+.linkforreg{
+	color: #532F21;
+	letter-spacing: 2px;
+}
+
+.btn-forreg{
+	background-color: #532F21;
+	color: white;
+	border-color: #532F21;
+
+}

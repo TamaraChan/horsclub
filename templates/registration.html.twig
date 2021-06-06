@@ -1,0 +1,20 @@
+{% extends 'base.html.twig' %}
+
+{% block content %}
+	<section class="registration">
+		<div class="container form-container">
+			<div class="wrapper">
+				<h3 class="ent">Регистрация</h3>
+				<a class="linkforreg" href="{{ path('enter') }}">Вход</a>
+			</div>
+			<form action="{{ path('create_user') }}" method="POST" class="form">
+				<input type="login" placeholder="Введите логин" name="login" class="input" required>
+				<input type="password" placeholder="Введите пароль" name="password" class="input" required>
+				<input type="name" placeholder="Имя" name="name" class="input" required>
+				<input type="phone" placeholder="Номер телефона" name="phone" class="input" required>
+				<input type="e-mail" placeholder="Email" name="email" class="input">
+				<button class="btn btn-form btn-forreg">Зарегистрироваться</button>
+			</form>
+		</div>
+	</section>
+{% endblock %}

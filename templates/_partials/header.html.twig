@@ -18,6 +18,18 @@
 							<li><a class="dropdown-item" href="{{ path('services') }}">Услуги</a></li>
 							<li><a class="dropdown-item" href="#">Контакты</a></li>
 						</ul>
+						{% if app.request.cookies.get('idUser') %}
+							<li class="nav-item item3">
+								<div class="menu-wrapper">
+									<a href="{{ path('logout') }}">Выйти</a>
+								</div>
+							</li>
+						{% else %}
+							<li class="nav-item">
+								<a class="nav-link active" aria-current="page" href="{{ path('enter') }}">Вход</a>
+							</li>
+						{% endif %}
+
 			</div>
 		</div>
 	</nav>

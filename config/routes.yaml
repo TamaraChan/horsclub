@@ -19,3 +19,27 @@ createOrder:
 confirmation:
     path: /confirmation
     controller: App\Controller\Form::confirmation
+
+enter:
+    path: /enter
+    methods: GET
+    controller: App\Controller\Enter::index
+
+create_user:
+    path: /registration
+    methods: POST
+    controller: App\Controller\Registration::createUser
+
+authUser:
+    path: /enter
+    methods: POST
+    controller: App\Controller\Enter::authUser
+
+logout:
+    path: /logout
+    controller: App\Controller\Enter::logout
+
+registration:
+    path: /registration
+    methods: GET
+    controller: App\Controller\Registration::index

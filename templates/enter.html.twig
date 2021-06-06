@@ -1,0 +1,25 @@
+{% extends 'base.html.twig' %}
+
+{% block content %}
+	<section class="entering">
+		<div class="container form-container">
+			<p class="formP">Авторизированные пользователи <br>автоматически получают рассылку о <br> предстоящих мероприятиях конного клуба</p>
+			<div class="wrapper">
+				<h3 class="ent">Вход</h3>
+				<a class="linkforreg" href="{{ path('registration') }}">Регистрация</a>
+			</div>
+			<div>
+				{% if errors is defined %}
+					{% for error in errors %}
+						<div class="alert alert-danger">{{ error }}</div>
+					{% endfor %}
+				{% endif %}
+			</div>
+			<form action="{{ path('authUser') }}" method="POST" class="form">
+				<input type="login" placeholder="Введите логин" name="login" class="input" required>
+				<input type="password" placeholder="Введите пароль" name="password" class="input" required>
+				<button class="btn btn-form btn-forreg">Войти</button>
+			</form>
+		</div>
+	</section>
+{% endblock %}
